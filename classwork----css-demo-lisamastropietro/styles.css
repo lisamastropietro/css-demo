@@ -1,0 +1,54 @@
+/* ======================================================
+   Practice CSS Selectors
+========================================================= */
+
+/* Change the color of all list items inside an unordered list */
+ul {
+   color: goldenrod;
+}
+/* Remove the text decoration from navigation links, and change their color when hovered */
+header, nav, ul, li, a {
+   text-decoration: none;
+}
+
+/* Create hover styles for all links inside 'main' */
+nav:hover, ul:hover, li:hover, a:hover {
+   color:  yellowgreen;
+   font-size: 26px;
+}
+
+main a:hover { 
+   color: aqua;
+   font-size: medium;
+}
+
+/*
+ Change the background color of the submit button when active.
+ hint: https://developer.mozilla.org/en-US/docs/Web/CSS/:active
+*/
+.submit:active {
+   background-color: blue;
+}
+
+/*
+ Give the text field a blue border upon focus.
+ hint: https://developer.mozilla.org/en-US/docs/Web/CSS/:focus
+*/
+.text:focus {
+   border: 4px dashed blue;
+}
+
+/* Give the 'span' tag in the footer a meaningful class name and reduce its font size */
+.copy {
+   font-size: x-small;
+}
+
+/* Give the 'img' tag in the header an ID and set its width to 190px */
+#header-img {
+   max-width: 190px;
+}
+
+/* Target all heading tags on the page and set their font family to 'Bree Serif', serif */
+h1, h2, h3 {
+   font-family: Arial;
+}
